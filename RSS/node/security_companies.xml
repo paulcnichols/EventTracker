@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>davidj subscriptions in Google Reader</title>
+    </head>
+    <body>
+        <outline title="Elad - Competitor News" text="Elad - Competitor News">
+            <outline text="AVG Blogs | Roger Thompson"
+                title="AVG Blogs | Roger Thompson" type="rss"
+                xmlUrl="http://thompson.blog.avg.com/atom.xml" htmlUrl="http://thompson.blog.avg.com/"/>
+            <outline text="Blog Central È McAfee Labs"
+                title="Blog Central È McAfee Labs" type="rss"
+                xmlUrl="http://blogs.mcafee.com/mcafee-labs/feed" htmlUrl="http://blogs.mcafee.com"/>
+            <outline text="Check Point SmartDefense Service Advisories"
+                title="Check Point SmartDefense Service Advisories"
+                type="rss"
+                xmlUrl="http://www.checkpoint.com/defense/advisories/public/smartdefense_atomz.xml" htmlUrl="http://www.checkpoint.com/defense/advisories/public/index.html"/>
+            <outline text="ESET (Competitor)" title="ESET (Competitor)"
+                type="rss" xmlUrl="http://blog.eset.com/feed/rss" htmlUrl="http://blog.eset.com"/>
+            <outline text="F-Secure (Competitor)"
+                title="F-Secure (Competitor)" type="rss"
+                xmlUrl="http://www.f-secure.com/weblog/weblog.rss" htmlUrl="http://www.f-secure.com/weblog"/>
+            <outline text="[Facetime] SpywareGuide Greynets Blog"
+                title="[Facetime] SpywareGuide Greynets Blog" type="rss"
+                xmlUrl="http://blog.spywareguide.com/atom.xml" htmlUrl="http://blog.spywareguide.com/"/>
+            <outline text="Finjan MCRC Blog: Posts"
+                title="Finjan MCRC Blog: Posts" type="rss"
+                xmlUrl="http://www.m86security.com/rss/trace.asp" htmlUrl="http://www.m86security.com/labs/"/>
+            <outline text="Kaspersky (Competitor)-1"
+                title="Kaspersky (Competitor)-1" type="rss"
+                xmlUrl="http://www.securelist.com/en/rss/weblog" htmlUrl="http://www.securelist.com/en/"/>
+            <outline text="Malicious Code" title="Malicious Code"
+                type="rss"
+                xmlUrl="https://forums2.symantec.com/rss/board?board.id=malicious_code" htmlUrl="https://forums2.symantec.com/t5/Malicious-Code/bg-p/malicious_code"/>
+            <outline text="Marshal1 (Competitor)"
+                title="Marshal1 (Competitor)" type="rss"
+                xmlUrl="http://www.marshal.com/rss/alerts.asp" htmlUrl="http://www.m86security.com/labs/"/>
+            <outline text="Marshal2" title="Marshal2" type="rss"
+                xmlUrl="http://www.marshal.com/rss/trace.asp" htmlUrl="http://www.m86security.com/labs/"/>
+            <outline text="Microsoft Malware Protection Center"
+                title="Microsoft Malware Protection Center" type="rss"
+                xmlUrl="http://blogs.technet.com/b/mmpc/rss.aspx" htmlUrl="http://blogs.technet.com/b/mmpc/"/>
+            <outline text="Mobile &amp; Wireless"
+                title="Mobile &amp; Wireless" type="rss"
+                xmlUrl="https://forums2.symantec.com/rss/board?board.id=mobile_wireless" htmlUrl="https://forums2.symantec.com/t5/Mobile-Wireless/bg-p/mobile_wireless"/>
+            <outline text="Online Fraud" title="Online Fraud" type="rss"
+                xmlUrl="https://forums2.symantec.com/rss/board?board.id=online_fraud" htmlUrl="https://forums2.symantec.com/t5/Online-Fraud/bg-p/online_fraud"/>
+            <outline text="Panda (Competitor)"
+                title="Panda (Competitor)" type="rss"
+                xmlUrl="http://pandalabs.pandasecurity.com/feed/rss/" htmlUrl="http://pandalabs.pandasecurity.com"/>
+            <outline text="Prevx Blog" title="Prevx Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/PrevxResearchBlog" htmlUrl="http://www.prevx.com/blog.asp"/>
+            <outline text="ScanSafe STAT Blog"
+                title="ScanSafe STAT Blog" type="rss"
+                xmlUrl="http://blog.scansafe.com/journal/rss.xml" htmlUrl="http://blog.scansafe.com/journal/"/>
+            <outline text="Secure Computing (Competitor)-1"
+                title="Secure Computing (Competitor)-1" type="rss"
+                xmlUrl="http://www.trustedsource.org/dynamic/rss/ts-blog.xml" htmlUrl="http://www.trustedsource.org"/>
+            <outline text="SecureWorks Research Blog"
+                title="SecureWorks Research Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/secureworks/blog?format=xml" htmlUrl="http://www.secureworks.com/research/blog"/>
+            <outline text="SecureWorks Threat Analyses"
+                title="SecureWorks Threat Analyses" type="rss"
+                xmlUrl="http://www.secureworks.com/feeds/threats.xml" htmlUrl="http://www.secureworks.com/research/threats/"/>
+            <outline text="Security Blog G Data Software AG"
+                title="Security Blog G Data Software AG" type="rss"
+                xmlUrl="http://feeds.feedburner.com/GDatasecurityblog" htmlUrl="http://blog.gdatasoftware.com/"/>
+            <outline text="Sophos security news"
+                title="Sophos security news" type="rss"
+                xmlUrl="http://feeds.sophos.com/en/rss2_0-sophos-security-news.xml" htmlUrl="http://www.sophos.com/en-us/press-office/press-releases.aspx"/>
+            <outline text="Sophos1 (Competitor)"
+                title="Sophos1 (Competitor)" type="rss"
+                xmlUrl="http://feeds.feedburner.com/nakedsecurity" htmlUrl="http://nakedsecurity.sophos.com"/>
+            <outline text="Sunbelt (Competitor)"
+                title="Sunbelt (Competitor)" type="rss"
+                xmlUrl="http://sunbeltblog.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://sunbeltblog.blogspot.com/"/>
+            <outline text="Symantec (Competitor)"
+                title="Symantec (Competitor)" type="rss"
+                xmlUrl="http://www.symantec.com/content/en/us/enterprise/rss/securityresponse/srblogs.xml" htmlUrl="http://www.symantec.com/enterprise/security_response/weblog/"/>
+            <outline text="Symantec Connect - Security - Blog Entries"
+                title="Symantec Connect - Security - Blog Entries"
+                type="rss"
+                xmlUrl="http://www.symantec.com/connect/item-feeds/blog/691/feed" htmlUrl="http://www.symantec.com/connect/item-feeds/blog/691/feed"/>
+            <outline text="TrendMicro" title="TrendMicro" type="rss"
+                xmlUrl="http://feeds.trendmicro.com/Anti-MalwareBlog/" htmlUrl="http://blog.trendmicro.com"/>
+            <outline text="TrustDefender Labs Blog - TrustDefender"
+                title="TrustDefender Labs Blog - TrustDefender"
+                type="rss"
+                xmlUrl="http://www.trustdefender.com/blog/rss.html" htmlUrl="http://www.trustdefender.com/blog-2.html"/>
+            <outline text="Vulnerabilities &amp; Exploits"
+                title="Vulnerabilities &amp; Exploits" type="rss"
+                xmlUrl="https://forums2.symantec.com/rss/board?board.id=vulnerabilities_exploits" htmlUrl="https://forums2.symantec.com/t5/Vulnerabilities-Exploits/bg-p/vulnerabilities_exploits"/>
+            <outline text="Vulnerabilities RSS Feed - Symantec Corp."
+                title="Vulnerabilities RSS Feed - Symantec Corp."
+                type="rss"
+                xmlUrl="http://www.symantec.com/xml/rss/listings.jsp?lid=advisories" htmlUrl="http://www.symantec.com/business/security_response/landing/vulnerabilities.jsp"/>
+            <outline text="Zscaler Research" title="Zscaler Research"
+                type="rss"
+                xmlUrl="http://research.zscaler.com/feeds/posts/default" htmlUrl="http://research.zscaler.com/"/>
+        </outline>
+        <outline title="Chris - Sec Companies" text="Chris - Sec Companies">
+            <outline
+                text="Adobe Product Security Incident Response Team (PSIRT)"
+                title="Adobe Product Security Incident Response Team (PSIRT)"
+                type="rss" xmlUrl="http://blogs.adobe.com/psirt/feed" htmlUrl="http://blogs.adobe.com/psirt"/>
+            <outline text="Adobe Reader Blog" title="Adobe Reader Blog"
+                type="rss"
+                xmlUrl="http://blogs.adobe.com/adobereader/atom.xml" htmlUrl="http://blogs.adobe.com/adobereader"/>
+            <outline text="Alienvault Labs" title="Alienvault Labs"
+                type="rss"
+                xmlUrl="http://labs.alienvault.com/labs/index.php/feed/" htmlUrl="http://labs.alienvault.com/labs"/>
+            <outline text="Astaro Blog - Security Perspectives Feed"
+                title="Astaro Blog - Security Perspectives Feed"
+                type="rss"
+                xmlUrl="http://www.astaro.com/blog/security-perspectives-rss" htmlUrl="http://www.astaro.com/blog-rss"/>
+            <outline text="avast! blog" title="avast! blog" type="rss"
+                xmlUrl="https://blog.avast.com/feed/" htmlUrl="https://blog.avast.com"/>
+            <outline text="AVG Blogs | Roger Thompson"
+                title="AVG Blogs | Roger Thompson" type="rss"
+                xmlUrl="http://feeds.feedburner.com/avgblogs_rogerthompson" htmlUrl="http://blogs.avg.com"/>
+            <outline text="Blog Central È McAfee Labs"
+                title="Blog Central È McAfee Labs" type="rss"
+                xmlUrl="http://blogs.mcafee.com/mcafee-labs/feed" htmlUrl="http://blogs.mcafee.com"/>
+            <outline text="CA Security Advisor Research Blog"
+                title="CA Security Advisor Research Blog" type="rss"
+                xmlUrl="http://feeds.ca.com/CS_CASecurityAdvisorResearchBlog" htmlUrl="http://totaldefense.com"/>
+            <outline text="Commtouch CafŽ" title="Commtouch CafŽ"
+                type="rss"
+                xmlUrl="http://feeds2.feedburner.com/CommtouchCafe" htmlUrl="http://blog.commtouch.com/cafe"/>
+            <outline text="Core Security Technologies"
+                title="Core Security Technologies" type="rss"
+                xmlUrl="http://blog.coresecurity.com/feed/" htmlUrl="http://blog.coresecurity.com"/>
+            <outline text="ESET ThreatBlog" title="ESET ThreatBlog"
+                type="rss" xmlUrl="http://www.eset.com/blog/feed" htmlUrl="http://blog.eset.com"/>
+            <outline text="Exploits Database by Offensive Security"
+                title="Exploits Database by Offensive Security"
+                type="rss" xmlUrl="http://www.exploit-db.com/feed/" htmlUrl="http://www.exploit-db.com"/>
+            <outline text="F-Secure (Competitor)"
+                title="F-Secure (Competitor)" type="rss"
+                xmlUrl="http://www.f-secure.com/weblog/weblog.rss" htmlUrl="http://www.f-secure.com/weblog"/>
+            <outline text="FireEye Malware Intelligence Lab"
+                title="FireEye Malware Intelligence Lab" type="rss"
+                xmlUrl="http://feeds.feedburner.com/FE_research" htmlUrl="http://blog.fireeye.com/research/"/>
+            <outline text="Google Online Security Blog"
+                title="Google Online Security Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/GoogleOnlineSecurityBlog" htmlUrl="http://googleonlinesecurity.blogspot.com/"/>
+            <outline text="Google Webmaster Central Blog"
+                title="Google Webmaster Central Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/blogspot/amDG?format=xml" htmlUrl="http://googlewebmastercentral.blogspot.com/"/>
+            <outline text="honeyblog" title="honeyblog" type="rss"
+                xmlUrl="http://honeyblog.org/feeds/index.rss2" htmlUrl="http://honeyblog.org/"/>
+            <outline
+                text="IBM Internet Security Systems Frequency X Blog"
+                title="IBM Internet Security Systems Frequency X Blog"
+                type="rss" xmlUrl="http://blogs.iss.net/rss.php" htmlUrl="http://blogs.iss.net"/>
+            <outline
+                text="Latest Blog Entires From WebSense Security Labs"
+                title="Latest Blog Entires From WebSense Security Labs"
+                type="rss"
+                xmlUrl="http://community.websense.com/blogs/securitylabs/rss.aspx" htmlUrl="http://community.websense.com/blogs/securitylabs/default.aspx"/>
+            <outline text="M86 Security Labs Blog"
+                title="M86 Security Labs Blog" type="rss"
+                xmlUrl="http://labs.m86security.com/feed/" htmlUrl="http://labs.m86security.com"/>
+            <outline text="Mozilla Security Blog"
+                title="Mozilla Security Blog" type="rss"
+                xmlUrl="http://blog.mozilla.com/security/feed/" htmlUrl="http://blog.mozilla.org/security"/>
+            <outline text="NSS Labs Blog" title="NSS Labs Blog"
+                type="rss" xmlUrl="http://www.nsslabs.com/blog.rss" htmlUrl="https://www.nsslabs.com"/>
+            <outline text="OpenDNS Blog" title="OpenDNS Blog" type="rss"
+                xmlUrl="http://blog.opendns.com/feed/" htmlUrl="http://blog.opendns.com"/>
+            <outline text="Palo Alto Networks Research Cent..."
+                title="Palo Alto Networks Research Cent..." type="rss"
+                xmlUrl="http://www.paloaltonetworks.com/researchcenter/feed/" htmlUrl="http://researchcenter.paloaltonetworks.com"/>
+            <outline text="Panda (Competitor)"
+                title="Panda (Competitor)" type="rss"
+                xmlUrl="http://pandalabs.pandasecurity.com/feed/rss/" htmlUrl="http://pandalabs.pandasecurity.com"/>
+            <outline
+                text="PC Security News Ð Sunbelt Blog, Your Source for Internet Security News"
+                title="PC Security News Ð Sunbelt Blog, Your Source for Internet Security News"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/SunbeltBlog" htmlUrl="http://www.gfi.com/blog"/>
+            <outline text="RSA" title="RSA" type="rss"
+                xmlUrl="http://www.rsa.com/blog/rssfeed.aspx" htmlUrl="http://www.rsa.com/blog/"/>
+            <outline text="ScanSafe STAT Blog"
+                title="ScanSafe STAT Blog" type="rss"
+                xmlUrl="http://blog.scansafe.com/journal/rss.xml" htmlUrl="http://blog.scansafe.com/journal/"/>
+            <outline text="Seculert Research Lab"
+                title="Seculert Research Lab" type="rss"
+                xmlUrl="http://feeds.feedburner.com/SeculertResearchLab?format=xml" htmlUrl="http://blog.seculert.com/"/>
+            <outline text="Securelist / Blog" title="Securelist / Blog"
+                type="rss"
+                xmlUrl="http://www.viruslist.com/en/rss/weblog" htmlUrl="http://www.securelist.com/en/"/>
+            <outline text="SecuriTeam Blogs" title="SecuriTeam Blogs"
+                type="rss"
+                xmlUrl="http://blogs.securiteam.com/index.php/feed/" htmlUrl="http://blogs.securiteam.com"/>
+            <outline text="Sophos" title="Sophos" type="rss"
+                xmlUrl="http://feeds.sophos.com/en/rss2_0-sophos-sophoslabs-blog.xml" htmlUrl="http://nakedsecurity.sophos.com"/>
+            <outline text="Sophos security news"
+                title="Sophos security news" type="rss"
+                xmlUrl="http://feeds.sophos.com/en/rss2_0-sophos-security-news.xml" htmlUrl="http://www.sophos.com/en-us/press-office/press-releases.aspx"/>
+            <outline text="Sucuri" title="Sucuri" type="rss"
+                xmlUrl="http://feeds.feedburner.com/SucuriSecurity" htmlUrl="http://blog.sucuri.net"/>
+            <outline text="Symantec Connect - Security - Blog Entries"
+                title="Symantec Connect - Security - Blog Entries"
+                type="rss"
+                xmlUrl="http://www.symantec.com/connect/item-feeds/blog/691/feed" htmlUrl="http://www.symantec.com/connect/item-feeds/blog/691/feed"/>
+            <outline text="Symantec Connect - Security - Blog Entries"
+                title="Symantec Connect - Security - Blog Entries"
+                type="rss"
+                xmlUrl="http://www.symantec.com/connect/item-feeds/blog/691,29651/feed/all/all" htmlUrl="http://www.symantec.com/connect/item-feeds/blog/691%2C29651/feed/all/all"/>
+            <outline text="TaoSecurity" title="TaoSecurity" type="rss"
+                xmlUrl="http://taosecurity.blogspot.com/atom.xml" htmlUrl="http://taosecurity.blogspot.com/"/>
+            <outline text="Tenable Network Security"
+                title="Tenable Network Security" type="rss"
+                xmlUrl="http://blog.tenablesecurity.com/rss.xml" htmlUrl="http://blog.tenablesecurity.com/"/>
+            <outline text="The Day Before Zero"
+                title="The Day Before Zero" type="rss"
+                xmlUrl="http://blog.damballa.com/?feed=rss2" htmlUrl="http://blog.damballa.com"/>
+            <outline text="The Oracle Software Security Assurance Blog"
+                title="The Oracle Software Security Assurance Blog"
+                type="rss"
+                xmlUrl="http://blogs.oracle.com/security/feed/entries/rss" htmlUrl="https://blogs.oracle.com/security/"/>
+            <outline text="ThreatFire Research Blog"
+                title="ThreatFire Research Blog" type="rss"
+                xmlUrl="http://blog.threatfire.com/feed" htmlUrl="http://blog.threatfire.com"/>
+            <outline text="TrendMicro" title="TrendMicro" type="rss"
+                xmlUrl="http://feeds.trendmicro.com/Anti-MalwareBlog/" htmlUrl="http://blog.trendmicro.com"/>
+            <outline text="VRT" title="VRT" type="rss"
+                xmlUrl="http://feeds.feedburner.com/Vrt" htmlUrl="http://vrt-blog.snort.org/"/>
+            <outline text="Webroot Threat Blog"
+                title="Webroot Threat Blog" type="rss"
+                xmlUrl="http://blog.webroot.com/feed/" htmlUrl="http://blog.webroot.com"/>
+            <outline text="WindowSecurity.com"
+                title="WindowSecurity.com" type="rss"
+                xmlUrl="http://rss.windowsecurity.com/allnews.xml" htmlUrl="http://www.WindowSecurity.com/"/>
+        </outline>
+    </body>
+</opml>
+
