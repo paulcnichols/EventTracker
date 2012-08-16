@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="/Users/pnichols/Desktop/UCSD/Project/NLP/commons-io-2.4/commons-io-2.4-test-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/pnichols/Desktop/UCSD/Project/NLP/commons-io-2.4/commons-io-2.4-tests.jar"/>
 	<classpathentry kind="lib" path="/Users/pnichols/Desktop/UCSD/Project/NLP/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/pnichols/Desktop/UCSD/Project/NLP/commons-lang3-3.1/commons-lang3-3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
