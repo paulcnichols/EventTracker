@@ -3,3 +3,13 @@ RSS/data
 RSS/data-clean
 NLP/apache-*
 NLP/commons-*
+
+RSS/.DS_Store
+
+NLP/java/.classpath
+
+.DS_Store
+
+NLP/java/pos.jar
+
+NLP/java/bin/pos.class
