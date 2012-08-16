@@ -9,7 +9,9 @@ import opennlp.uima.sentdetect.SentenceDetector;
 import opennlp.tools.namefind.TokenNameFinderModel;
 import opennlp.tools.namefind.NameFinderME;
 
-import opennlp.tools.tokenize.WhitespaceTokenizer;
+import opennlp.tools.tokenize.TokenizerModel;
+import opennlp.tools.tokenize.TokenizerME;
+
 import opennlp.tools.util.ObjectStream;
 import opennlp.tools.util.PlainTextByLineStream;
 import opennlp.tools.util.Span;
@@ -23,8 +25,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 import org.apache.commons.io.FileUtils;
-
-import com.sun.tools.javac.code.Attribute.Array;
+import org.apache.commons.lang3.StringUtils;
 
 public class pos {
 	public static void main(String[] args) throws IOException {
@@ -38,71 +39,94 @@ public class pos {
 
 		// find all files
 		File[] files = new File(directory).listFiles();
-/*
+
 		// Load the POS tagger
 		POSTaggerME pos = new POSTaggerME(
 				new POSModel(
 						new FileInputStream("models/en-pos-maxent.bin")));
-*/
+
 		// Load the Sentence Detector
 		SentenceDetectorME sent = new SentenceDetectorME(
 				new SentenceModel(
 						new FileInputStream("models/en-sent.bin")));
-/*
-		// Date finder
-		NameFinderME d_finder = new NameFinderME(
-				new TokenNameFinderModel(
-						new FileInputStream("models/en-ner-date.bin")));
-		
+
+		// Load the tokenizer
+		TokenizerME tokenizer = new TokenizerME(
+				new TokenizerModel(
+						new FileInputStream("models/en-token.bin")));
 		// Location finder
 		NameFinderME l_finder = new NameFinderME(
 				new TokenNameFinderModel(
 						new FileInputStream("models/en-ner-location.bin")));
-*/
+
 		// Organization finder
 		NameFinderME o_finder = new NameFinderME(
 				new TokenNameFinderModel(
 						new FileInputStream("models/en-ner-organization.bin")));
-/*
+
 		// Person finder
 		NameFinderME p_finder = new NameFinderME(
 				new TokenNameFinderModel(
 						new FileInputStream("models/en-ner-person.bin")));
-*/
+
 		// Extract nouns, verbs, and adjectives
 		for (File f : files) {
+			if (!f.getPath().endsWith(".txt"))
+				continue;
+			
 			String content = FileUtils.readFileToString(f);
 			String [] sentences = sent.sentDetect(content);
-			
+
+			List<String> n_list= new ArrayList<String>();
+			List<String> l_list= new ArrayList<String>();
 			List<String> o_list= new ArrayList<String>();
 			List<String> p_list = new ArrayList<String>();
+
+			System.out.println("Processing " + f.getAbsolutePath() + " ...");
 			
 			for (String sentence : sentences) {
-				String tokens[] = WhitespaceTokenizer.INSTANCE.tokenize(sentence);
-				//String[] tags = pos.tag(tokens);
-				//Span[] dates = d_finder.find(tokens);
-				
-				Span[] orgs = o_finder.find(tokens);
-				//Span[] peeps = p_finder.find(tokens);
+				String tokens[] = tokenizer.tokenize(sentence);
 
-				//POSSample sample = new POSSample(whitespaceTokenizerLine, tags);
-				for (Span s : orgs) {
-					o_list.add(Arrays.copyOfRange(tokens, s.getStart(), s.getEnd()).toString());
+				String[] tags = pos.tag(tokens);
+				for (int i=0; i < tags.length; ++i) {
+					String t = tags[i];
+					String k = tokens[i];
+					
+					// Noun, singular or mass noun
+					// Noun, plural
+					if (t.equals("NN") || t.equals("NNS") || t.equals("NNP") || t.equals("NNPS")) {
+						n_list.add(k);
+					}
 				}
-				
-				/*
+
+				Span[] locs = l_finder.find(tokens);
+				for (Span s : locs) {
+					l_list.add(StringUtils.join(Arrays.copyOfRange(tokens, s.getStart(), s.getEnd()), " "));
+				}
+
+				Span[] orgs = o_finder.find(tokens);
+				for (Span s : orgs) {
+					o_list.add(StringUtils.join(Arrays.copyOfRange(tokens, s.getStart(), s.getEnd()), " "));
+				}
+
+				Span[] peeps = p_finder.find(tokens);
 				for (Span s : peeps) {
 					p_list.add(Arrays.copyOfRange(tokens, s.getStart(), s.getEnd()).toString());
 				}
-				*/
-				
 			}
+
+			if (n_list.size() > 0)
+				FileUtils.writeLines(new File(f.getAbsolutePath()+".nouns"), n_list);
+
+			if (l_list.size() > 0)
+				FileUtils.writeLines(new File(f.getAbsolutePath()+".locs"), l_list);
+
 			if (o_list.size() > 0)
 				FileUtils.writeLines(new File(f.getAbsolutePath()+".orgs"), o_list);
-			/*
+
 			if (p_list.size() > 0)
 				FileUtils.writeLines(new File(f.getAbsolutePath()+".names"), p_list);
-			*/
+
 		}
 	}
 }
