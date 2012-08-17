@@ -16,7 +16,9 @@ import opennlp.tools.util.ObjectStream;
 import opennlp.tools.util.PlainTextByLineStream;
 import opennlp.tools.util.Span;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.FileInputStream;
@@ -32,13 +34,10 @@ public class pos {
 
 		// Get the directory
 		if (args.length < 1) {
-			System.out.println("usage: ./pos <directory>");
+			System.out.println("usage: ./pos <file-list>");
 			System.exit(1);
 		}
-		String directory = args[0];
-
-		// find all files
-		File[] files = new File(directory).listFiles();
+		String file_list = args[0];
 
 		// Load the POS tagger
 		POSTaggerME pos = new POSTaggerME(
@@ -70,11 +69,10 @@ public class pos {
 						new FileInputStream("models/en-ner-person.bin")));
 
 		// Extract nouns, verbs, and adjectives
-		for (File f : files) {
-			if (!f.getPath().endsWith(".txt"))
-				continue;
-			
-			String content = FileUtils.readFileToString(f);
+		BufferedReader br = new BufferedReader(new FileReader(file_list));
+        String file;
+        while((file = br.readLine()) != null) {
+			String content = FileUtils.readFileToString(new File(file));
 			String [] sentences = sent.sentDetect(content);
 
 			List<String> n_list= new ArrayList<String>();
@@ -82,7 +80,7 @@ public class pos {
 			List<String> o_list= new ArrayList<String>();
 			List<String> p_list = new ArrayList<String>();
 
-			System.out.println("Processing " + f.getAbsolutePath() + " ...");
+			System.out.println("Processing " + file + " ...");
 			
 			for (String sentence : sentences) {
 				String tokens[] = tokenizer.tokenize(sentence);
@@ -111,21 +109,21 @@ public class pos {
 
 				Span[] peeps = p_finder.find(tokens);
 				for (Span s : peeps) {
-					p_list.add(Arrays.copyOfRange(tokens, s.getStart(), s.getEnd()).toString());
+					p_list.add(StringUtils.join(Arrays.copyOfRange(tokens, s.getStart(), s.getEnd()), " "));
 				}
 			}
 
 			if (n_list.size() > 0)
-				FileUtils.writeLines(new File(f.getAbsolutePath()+".nouns"), n_list);
+				FileUtils.writeLines(new File(file+".nouns"), n_list);
 
 			if (l_list.size() > 0)
-				FileUtils.writeLines(new File(f.getAbsolutePath()+".locs"), l_list);
+				FileUtils.writeLines(new File(file+".locs"), l_list);
 
 			if (o_list.size() > 0)
-				FileUtils.writeLines(new File(f.getAbsolutePath()+".orgs"), o_list);
+				FileUtils.writeLines(new File(file+".orgs"), o_list);
 
 			if (p_list.size() > 0)
-				FileUtils.writeLines(new File(f.getAbsolutePath()+".names"), p_list);
+				FileUtils.writeLines(new File(file+".names"), p_list);
 
 		}
 	}

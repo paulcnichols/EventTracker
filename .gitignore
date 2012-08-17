@@ -1,6 +1,5 @@
 RSS/analysis
 RSS/data
-RSS/data-clean
 NLP/apache-*
 NLP/commons-*
 
@@ -19,3 +18,5 @@ NLP/java/bin/pos.class
 NLP/java/bin/pos.class
 
 NLP/java/.classpath
+
+RSS/docs.txt
