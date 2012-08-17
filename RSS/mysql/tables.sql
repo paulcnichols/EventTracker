@@ -7,10 +7,9 @@ CREATE TABLE `article` (
   `feed` int(11) NOT NULL,
   `timestamp` int(11) NOT NULL,
   PRIMARY KEY (`article_id`),
-  KEY `FEED` (`feed`,`timestamp`),
+  UNIQUE KEY `FEED` (`feed`,`timestamp`),
   KEY `TIMESTAMP` (`timestamp`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1$$
-
+) ENGINE=MyISAM AUTO_INCREMENT=19472 DEFAULT CHARSET=latin1$$
 
 CREATE TABLE `article_term` (
   `article_id` int(11) NOT NULL,
@@ -30,8 +29,10 @@ CREATE TABLE `feed` (
 
 CREATE TABLE `term` (
   `term_id` int(11) NOT NULL AUTO_INCREMENT,
-  `term` text NOT NULL,
-  PRIMARY KEY (`term_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1$$
+  `term` varchar(100) NOT NULL,
+  `count` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`term_id`),
+  UNIQUE KEY `TERM` (`term`)
+) ENGINE=MyISAM AUTO_INCREMENT=129127 DEFAULT CHARSET=latin1$$
 
 
