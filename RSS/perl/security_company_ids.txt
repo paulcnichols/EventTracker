@@ -1,0 +1,69 @@
+1	CommtouchCafe	http://feeds2.feedburner.com/CommtouchCafe
+2		http://blogs.technet.com/b/mmpc/rss.aspx
+3	Palo Alto Networks	http://www.paloaltonetworks.com/researchcenter/feed/
+4	Zscalar	http://research.zscaler.com/feeds/posts/default
+5	Sunbelt	http://feeds.feedburner.com/SunbeltBlog
+6	Exploit DB	http://www.exploit-db.com/feed/
+7	Google Online Security Blog	http://feeds.feedburner.com/GoogleOnlineSecurityBlog
+8	Avast	https://blog.avast.com/feed/
+9	Spyware Guide	http://blog.spywareguide.com/atom.xml
+10	Securelist	http://www.securelist.com/en/rss/weblog
+11	Symantec	http://www.symantec.com/content/en/us/enterprise/rss/securityresponse/srblogs.xml
+12	m86 Security	http://www.m86security.com/rss/trace.asp
+13	ISS	http://blogs.iss.net/rss.php
+14	Symantec	https://forums2.symantec.com/rss/board?board.id=vulnerabilities_exploits
+15	Mcafee Labs	http://blogs.mcafee.com/mcafee-labs/feed
+16	Core Security	http://blog.coresecurity.com/feed/
+17	Symantec	https://forums2.symantec.com/rss/board?board.id=mobile_wireless
+18	Symantec	http://www.symantec.com/connect/item-feeds/blog/691/feed
+19	Marshal	http://www.marshal.com/rss/trace.asp
+20	Oracle	http://blogs.oracle.com/security/feed/entries/rss
+21	Damballa	http://blog.damballa.com/?feed=rss2
+22	Seculert Research Lab	http://feeds.feedburner.com/SeculertResearchLab?format=xml
+23	Threat Fire	http://blog.threatfire.com/feed
+24	Trust Defender	http://www.trustdefender.com/blog/rss.html
+25	ESET	http://www.eset.com/blog/feed
+26	GData Security Blog	http://feeds.feedburner.com/GDatasecurityblog
+27	OpenDNS	http://blog.opendns.com/feed/
+28	amDG	http://feeds.feedburner.com/blogspot/amDG?format=xml
+29	Symantex	http://www.symantec.com/xml/rss/listings.jsp?lid=advisories
+30	Secureworkds	http://www.secureworks.com/feeds/threats.xml
+31	NSS Labs	http://www.nsslabs.com/blog.rss
+32	ESET	http://blog.eset.com/feed/rss
+33	CA Security Advisor Research Blog	http://feeds.ca.com/CS_CASecurityAdvisorResearchBlog
+34	F-Secure	http://www.f-secure.com/weblog/weblog.rss
+35	Trusted Source	http://www.trustedsource.org/dynamic/rss/ts-blog.xml
+36	Adobe	http://blogs.adobe.com/adobereader/atom.xml
+37	RSA	http://www.rsa.com/blog/rssfeed.aspx
+38	Trend Micro	http://feeds.trendmicro.com/Anti-MalwareBlog/
+39	Symantec	https://forums2.symantec.com/rss/board?board.id=malicious_code
+40	Sunbelt	http://sunbeltblog.blogspot.com/feeds/posts/default?alt=rss
+41	Naked Security	http://feeds.feedburner.com/nakedsecurity
+42	Tenable Security	http://blog.tenablesecurity.com/rss.xml
+43	Tao Security	http://taosecurity.blogspot.com/atom.xml
+44	Sophos	http://feeds.sophos.com/en/rss2_0-sophos-security-news.xml
+45	Securiteam	http://blogs.securiteam.com/index.php/feed/
+46	AVG	http://feeds.feedburner.com/avgblogs_rogerthompson
+47	Sucuri Security	http://feeds.feedburner.com/SucuriSecurity
+48	ScanSafe	http://blog.scansafe.com/journal/rss.xml
+49	FE Research	http://feeds.feedburner.com/FE_research
+50	Thompson (AVG)	http://thompson.blog.avg.com/atom.xml
+51	m86 Security	http://labs.m86security.com/feed/
+52	Windows Security	http://rss.windowsecurity.com/allnews.xml
+53	Secure Works	http://feeds.feedburner.com/secureworks/blog?format=xml
+54	Marshal	http://www.marshal.com/rss/alerts.asp
+55	Checkpoint	http://www.checkpoint.com/defense/advisories/public/smartdefense_atomz.xml
+56	Symantec	http://www.symantec.com/connect/item-feeds/blog/691,29651/feed/all/all
+57	Honeyblog	http://honeyblog.org/feeds/index.rss2
+58	Adobe	http://blogs.adobe.com/psirt/feed
+59	Panda Security	http://pandalabs.pandasecurity.com/feed/rss/
+60	Viruslist	http://www.viruslist.com/en/rss/weblog
+61	Webroot	http://blog.webroot.com/feed/
+62	Mozilla	http://blog.mozilla.com/security/feed/
+63	Sophos Labs	http://feeds.sophos.com/en/rss2_0-sophos-sophoslabs-blog.xml
+64	Symantec	https://forums2.symantec.com/rss/board?board.id=online_fraud
+65	Websense	http://community.websense.com/blogs/securitylabs/rss.aspx
+66	Alienvault	http://labs.alienvault.com/labs/index.php/feed/
+67	Prevx Research Blog	http://feeds.feedburner.com/PrevxResearchBlog
+68	Astaro	http://www.astaro.com/blog/security-perspectives-rss
+69	Vrt	http://feeds.feedburner.com/Vrt

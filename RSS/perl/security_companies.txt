@@ -1,69 +1,69 @@
-http://feeds2.feedburner.com/CommtouchCafe
-http://blogs.technet.com/b/mmpc/rss.aspx
-http://www.paloaltonetworks.com/researchcenter/feed/
-http://research.zscaler.com/feeds/posts/default
-http://feeds.feedburner.com/SunbeltBlog
-http://www.exploit-db.com/feed/
-http://feeds.feedburner.com/GoogleOnlineSecurityBlog
-https://blog.avast.com/feed/
-http://blog.spywareguide.com/atom.xml
-http://www.securelist.com/en/rss/weblog
-http://www.symantec.com/content/en/us/enterprise/rss/securityresponse/srblogs.xml
-http://www.m86security.com/rss/trace.asp
-http://blogs.iss.net/rss.php
-https://forums2.symantec.com/rss/board?board.id=vulnerabilities_exploits
-http://blogs.mcafee.com/mcafee-labs/feed
-http://blog.coresecurity.com/feed/
-https://forums2.symantec.com/rss/board?board.id=mobile_wireless
-http://www.symantec.com/connect/item-feeds/blog/691/feed
-http://www.marshal.com/rss/trace.asp
-http://blogs.oracle.com/security/feed/entries/rss
-http://blog.damballa.com/?feed=rss2
-http://feeds.feedburner.com/SeculertResearchLab?format=xml
-http://blog.threatfire.com/feed
-http://www.trustdefender.com/blog/rss.html
-http://www.eset.com/blog/feed
-http://feeds.feedburner.com/GDatasecurityblog
-http://blog.opendns.com/feed/
-http://feeds.feedburner.com/blogspot/amDG?format=xml
-http://www.symantec.com/xml/rss/listings.jsp?lid=advisories
-http://www.secureworks.com/feeds/threats.xml
-http://www.nsslabs.com/blog.rss
-http://blog.eset.com/feed/rss
-http://feeds.ca.com/CS_CASecurityAdvisorResearchBlog
-http://www.f-secure.com/weblog/weblog.rss
-http://www.trustedsource.org/dynamic/rss/ts-blog.xml
-http://blogs.adobe.com/adobereader/atom.xml
-http://www.rsa.com/blog/rssfeed.aspx
-http://feeds.trendmicro.com/Anti-MalwareBlog/
-https://forums2.symantec.com/rss/board?board.id=malicious_code
-http://sunbeltblog.blogspot.com/feeds/posts/default?alt=rss
-http://feeds.feedburner.com/nakedsecurity
-http://blog.tenablesecurity.com/rss.xml
-http://taosecurity.blogspot.com/atom.xml
-http://feeds.sophos.com/en/rss2_0-sophos-security-news.xml
-http://blogs.securiteam.com/index.php/feed/
-http://feeds.feedburner.com/avgblogs_rogerthompson
-http://feeds.feedburner.com/SucuriSecurity
-http://blog.scansafe.com/journal/rss.xml
-http://feeds.feedburner.com/FE_research
-http://thompson.blog.avg.com/atom.xml
-http://labs.m86security.com/feed/
-http://rss.windowsecurity.com/allnews.xml
-http://feeds.feedburner.com/secureworks/blog?format=xml
-http://www.marshal.com/rss/alerts.asp
-http://www.checkpoint.com/defense/advisories/public/smartdefense_atomz.xml
-http://www.symantec.com/connect/item-feeds/blog/691,29651/feed/all/all
-http://honeyblog.org/feeds/index.rss2
-http://blogs.adobe.com/psirt/feed
-http://pandalabs.pandasecurity.com/feed/rss/
-http://www.viruslist.com/en/rss/weblog
-http://blog.webroot.com/feed/
-http://blog.mozilla.com/security/feed/
-http://feeds.sophos.com/en/rss2_0-sophos-sophoslabs-blog.xml
-https://forums2.symantec.com/rss/board?board.id=online_fraud
-http://community.websense.com/blogs/securitylabs/rss.aspx
-http://labs.alienvault.com/labs/index.php/feed/
-http://feeds.feedburner.com/PrevxResearchBlog
-http://www.astaro.com/blog/security-perspectives-rss
-http://feeds.feedburner.com/Vrt
+CommtouchCafe	http://feeds2.feedburner.com/CommtouchCafe
+	http://blogs.technet.com/b/mmpc/rss.aspx
+Palo Alto Networks	http://www.paloaltonetworks.com/researchcenter/feed/
+Zscalar	http://research.zscaler.com/feeds/posts/default
+Sunbelt	http://feeds.feedburner.com/SunbeltBlog
+Exploit DB	http://www.exploit-db.com/feed/
+Google Online Security Blog	http://feeds.feedburner.com/GoogleOnlineSecurityBlog
+Avast	https://blog.avast.com/feed/
+Spyware Guide	http://blog.spywareguide.com/atom.xml
+Securelist	http://www.securelist.com/en/rss/weblog
+Symantec	http://www.symantec.com/content/en/us/enterprise/rss/securityresponse/srblogs.xml
+m86 Security	http://www.m86security.com/rss/trace.asp
+ISS	http://blogs.iss.net/rss.php
+Symantec	https://forums2.symantec.com/rss/board?board.id=vulnerabilities_exploits
+Mcafee Labs	http://blogs.mcafee.com/mcafee-labs/feed
+Core Security	http://blog.coresecurity.com/feed/
+Symantec	https://forums2.symantec.com/rss/board?board.id=mobile_wireless
+Symantec	http://www.symantec.com/connect/item-feeds/blog/691/feed
+Marshal	http://www.marshal.com/rss/trace.asp
+Oracle	http://blogs.oracle.com/security/feed/entries/rss
+Damballa	http://blog.damballa.com/?feed=rss2
+Seculert Research Lab	http://feeds.feedburner.com/SeculertResearchLab?format=xml
+Threat Fire	http://blog.threatfire.com/feed
+Trust Defender	http://www.trustdefender.com/blog/rss.html
+ESET	http://www.eset.com/blog/feed
+GData Security Blog	http://feeds.feedburner.com/GDatasecurityblog
+OpenDNS	http://blog.opendns.com/feed/
+amDG	http://feeds.feedburner.com/blogspot/amDG?format=xml
+Symantex	http://www.symantec.com/xml/rss/listings.jsp?lid=advisories
+Secureworkds	http://www.secureworks.com/feeds/threats.xml
+NSS Labs	http://www.nsslabs.com/blog.rss
+ESET	http://blog.eset.com/feed/rss
+CA Security Advisor Research Blog	http://feeds.ca.com/CS_CASecurityAdvisorResearchBlog
+F-Secure	http://www.f-secure.com/weblog/weblog.rss
+Trusted Source	http://www.trustedsource.org/dynamic/rss/ts-blog.xml
+Adobe	http://blogs.adobe.com/adobereader/atom.xml
+RSA	http://www.rsa.com/blog/rssfeed.aspx
+Trend Micro	http://feeds.trendmicro.com/Anti-MalwareBlog/
+Symantec	https://forums2.symantec.com/rss/board?board.id=malicious_code
+Sunbelt	http://sunbeltblog.blogspot.com/feeds/posts/default?alt=rss
+Naked Security	http://feeds.feedburner.com/nakedsecurity
+Tenable Security	http://blog.tenablesecurity.com/rss.xml
+Tao Security	http://taosecurity.blogspot.com/atom.xml
+Sophos	http://feeds.sophos.com/en/rss2_0-sophos-security-news.xml
+Securiteam	http://blogs.securiteam.com/index.php/feed/
+AVG	http://feeds.feedburner.com/avgblogs_rogerthompson
+Sucuri Security	http://feeds.feedburner.com/SucuriSecurity
+ScanSafe	http://blog.scansafe.com/journal/rss.xml
+FE Research	http://feeds.feedburner.com/FE_research
+Thompson (AVG)	http://thompson.blog.avg.com/atom.xml
+m86 Security	http://labs.m86security.com/feed/
+Windows Security	http://rss.windowsecurity.com/allnews.xml
+Secure Works	http://feeds.feedburner.com/secureworks/blog?format=xml
+Marshal	http://www.marshal.com/rss/alerts.asp
+Checkpoint	http://www.checkpoint.com/defense/advisories/public/smartdefense_atomz.xml
+Symantec	http://www.symantec.com/connect/item-feeds/blog/691,29651/feed/all/all
+Honeyblog	http://honeyblog.org/feeds/index.rss2
+Adobe	http://blogs.adobe.com/psirt/feed
+Panda Security	http://pandalabs.pandasecurity.com/feed/rss/
+Viruslist	http://www.viruslist.com/en/rss/weblog
+Webroot	http://blog.webroot.com/feed/
+Mozilla	http://blog.mozilla.com/security/feed/
+Sophos Labs	http://feeds.sophos.com/en/rss2_0-sophos-sophoslabs-blog.xml
+Symantec	https://forums2.symantec.com/rss/board?board.id=online_fraud
+Websense	http://community.websense.com/blogs/securitylabs/rss.aspx
+Alienvault	http://labs.alienvault.com/labs/index.php/feed/
+Prevx Research Blog	http://feeds.feedburner.com/PrevxResearchBlog
+Astaro	http://www.astaro.com/blog/security-perspectives-rss
+Vrt	http://feeds.feedburner.com/Vrt

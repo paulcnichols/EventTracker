@@ -6,10 +6,11 @@ CREATE TABLE `article` (
   `article_id` int(11) NOT NULL AUTO_INCREMENT,
   `feed` int(11) NOT NULL,
   `timestamp` int(11) NOT NULL,
+  `title` text,
   PRIMARY KEY (`article_id`),
   UNIQUE KEY `FEED` (`feed`,`timestamp`),
   KEY `TIMESTAMP` (`timestamp`)
-) ENGINE=MyISAM AUTO_INCREMENT=19472 DEFAULT CHARSET=latin1$$
+) ENGINE=MyISAM AUTO_INCREMENT DEFAULT CHARSET=latin1$$
 
 CREATE TABLE `article_term` (
   `article_id` int(11) NOT NULL,

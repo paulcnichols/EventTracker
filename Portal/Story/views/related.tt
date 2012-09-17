@@ -1,0 +1,55 @@
+<div class="container" id='thumbs'>
+  <div class="row">
+    <div class="span5">
+    
+        <h1>Document</h1>
+        <h3>[% article.date %]</h3>
+        <blockquote>
+          <p>[% article.title %]</p>
+          <small>[% article.feed_name %]</small>
+        </blockquote>
+    
+        <h3>Terms</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Term</th>
+              <th>TF-IDF</th>
+            </tr>
+          </thead>
+          <tbody>
+          [% FOREACH t in terms %]
+            <tr>
+              <td>[% t.display %]</td>
+              <td>[% t.tfidf %]</td>
+            </tr>
+          [% END %]
+          </tbody>
+        </table>
+        
+    </div>
+    <div class="offset1 span4">
+      <div class="row"><h1>Related</h1></div>
+      [% FOREACH d in articles.keys.sort.reverse %]
+      <div class="row">
+        <h3>[% d %]</h3>
+        <ul class="thumbnails">
+        [% FOREACH a in articles.$d %]
+          <li class="span4">
+            <div class="thumbnail">
+              <div class="caption">
+                <blockquote>
+                  <p>[% a.title %]</p>
+                  <small>[% a.feed_name %]</small>
+                </blockquote>
+                <a class="btn btn-mini" href="/related/[% a.article_id %]">Related</a>
+              </div>
+            </div>
+          </li>
+        [% END %]
+        </ul>
+      </div>
+      [% END %]
+    </div>
+  </div>
+</div>

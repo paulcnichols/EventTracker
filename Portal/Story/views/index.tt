@@ -1,0 +1,25 @@
+<div class="container" id='thumbs'>
+  <div class="row">
+    <h1>Recent</h1>
+  </div>
+  [% FOREACH d in articles.keys.sort.reverse %]
+  <div class="row">
+    <h3>[% d %]</h3>
+    <ul class="thumbnails">
+    [% FOREACH a in articles.$d %]
+      <li class="span12">
+        <div class="thumbnail">
+          <div class="caption">
+            <blockquote>
+              <p>[% a.title %]</p>
+              <small>[% a.feed_name %]</small>
+            </blockquote>
+            <a class="btn btn-mini" href="/related/[% a.article_id %]">Related</a>
+          </div>
+        </div>
+      </li>
+    [% END %]
+    </ul>
+  </div>
+  [% END %]
+</div>
